@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/Book_Library/" element={<Home />}></Route>
         <Route path="/add-books" element={<AddBook />}></Route>
         <Route path="/view-book" element={<ViewBook />}></Route>
         {/* edit route should be dynamic */}
